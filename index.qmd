@@ -2,6 +2,9 @@
 title: "quarto-fail-example"
 format: html
 ---
+```{r}
+options(rlang_backtrace_on_error = "full")
+```
 
 # Deploy a quarto doc containing the following code
 # More steps on following slide
